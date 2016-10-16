@@ -75,7 +75,7 @@ const char     MINER_CONFIG_FILE_NAME[]                      = "miner_conf.json"
 
 //TODO Put here the name of your currency
 const char     CRYPTONOTE_NAME[]                             = "xcicoin";
-const char     GENESIS_COINBASE_TX_HEX[]                     = "";
+const char     GENESIS_COINBASE_TX_HEX[]                     = "013c01ff000980e08d84ddcb01026b2cde3765d6cdf755f7658e0206b5e5953dca86d137759e197a14adf34fe4d180e08d84ddcb01025a18fef09799c6aeb36049f072893f9d9ee304207da261138ea92c14579e76b180e08d84ddcb010243528844284528117df3bb177c631fe665e9e7dee58e5124629371f8ff06011580e08d84ddcb010217ba9d3ffc450e76a327de8267e568badbf93fb19ad29a4dab9071b3f80f531580e08d84ddcb010222df24c3972b038dc43abb9d06d4629679c46b07764f2c086c7e651792c370bf80e08d84ddcb0102c718b92e423f175864f7579ae52608c9a96eea3c3fa2ce6c7abdeafdcc9d6a8f80e08d84ddcb0102428e93d03158ab1d9123731f62333698288fef05fb30c045cbc540051ff98b8380e08d84ddcb010257402a375a91d3ff1927d499c12f1d37cac78d66d7ca013416239b9ff5f45c2e80e08d84ddcb01023f252c430effe97a93d7f7c5a33078fc7e811fbf0a3fab37e9201c5cc6affe012101fef31e83dc8ba23c520ca4e105c9b6712d9ccebbc2849230356fe1bf6db41b92";
 
 const uint8_t  CURRENT_TRANSACTION_VERSION                   =  1;
 const uint8_t  BLOCK_MAJOR_VERSION_1                         =  1;
@@ -107,7 +107,7 @@ const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "8f80f9a5a434a9f1
 
 //TODO Add here your network seed nodes
 const std::initializer_list<const char*> SEED_NODES = {
-  //"your_seed_ip1.com:8080",
+  "104.131.137.173:42000"
   //"your_seed_ip2.com:8080",
 };
 
@@ -123,7 +123,7 @@ __attribute__((unused))
 // You may add here other checkpoints using the following format:
 // {<block height>, "<block hash>"},
 const std::initializer_list<CheckpointData> CHECKPOINTS = {
-  //{ 10000, "84b6345731e2702cdaadc6ce5e5238c4ca5ecf48e3447136b2ed829b8a95f3ad" },
+  { 1, "44605b385e6d3467d43a0b94e58861170e1d309020b27f829a85e4603cd7c9b8" },
 };
 } // CryptoNote
 
