@@ -1,5 +1,5 @@
 
-## Building XCI COIN 
+## Building HumanitaryCoin
 
 ### On *nix
 
