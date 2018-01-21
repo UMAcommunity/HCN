@@ -107,10 +107,11 @@ const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "0000000000000000
 
 //TODO Add here your network seed nodes
 const std::initializer_list<const char*> SEED_NODES = {
-  "54.183.82.69:45000",
-  "52.72.213.128:45000",
+  "92.222.24.57:45000",
+  "45.32.147.31:45000",
   "149.56.133.52:45000",
   "144.217.104.145:45000",
+  "62.210.116.216:45000"
 };
 
 struct CheckpointData {
@@ -125,6 +126,9 @@ __attribute__((unused))
 // You may add here other checkpoints using the following format:
 // {<block height>, "<block hash>"},
 const std::initializer_list<CheckpointData> CHECKPOINTS = {
+ {106805,  "afac35ec4c55f06db37cd1fea7385070da0cf33c0057eb7bc1a10ef1d24f6538"},
+ {106885,  "ba4d1df94ee5685d3bb12e8e2bd6616b290631bce18d213dfb8e74dc1fff4e6e"},
+ {106905,  "bb37fd271db9bcd5a337284c6d419453c9968c3c8d03e53b4139b3a6694c7151"}
  };
 } // CryptoNote
 
